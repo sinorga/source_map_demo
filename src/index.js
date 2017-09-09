@@ -1,3 +1,3 @@
-import sum from './sum';
+var sum = require('./sum');
 
-console.log(sum(1,3));
+sum(1,3);

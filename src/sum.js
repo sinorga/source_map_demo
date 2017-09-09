@@ -1,3 +1,6 @@
-const sum = (a,b) => a + b ;
+var sum = function(a, b) {
+  console.log('I am here');
+  return a + b;
+}
 
-export default sum;
+module.exports = sum;
